@@ -1,3 +1,8 @@
+a {
+
+  text-decoration: none;
+}
+
 body {
 
   margin: 0;
@@ -5,3 +10,30 @@ body {
 
 }
 
+h1 {
+
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+
+  list-style: none;
+}
+
+.menu li {
+
+  display: inline;
+  margin-right: 18px;
+}
+
+.content-foto {
+
+  display: block;
+  text-align: center;
+
+}
