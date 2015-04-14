@@ -4,21 +4,41 @@ a {
 }
 
 body {
-
-  margin: 0;
+  margin: 100;
   padding: 0;
+  background-color: #eaecef
 
 }
 
 h1 {
-
+  font-family: 'Amatic SC';
   text-align: center;
 }
 
-nav {
-  text-align: center;
-  padding: 20px;
+h2 {
+
+  font-family: 'Amatic SC';
+  font-weight: 500;
 }
+
+h4, li {
+
+  font-family: 'Josefin Slab', serif;
+  padding-left: 100px;
+}
+
+p { 
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
+
+.ref{
+
+  font-family: 'Amatic SC';
+  font-weight: 500;
+}
+
 
 ul {
 
@@ -31,9 +51,73 @@ ul {
   margin-right: 18px;
 }
 
-.content-foto {
+#datos {
+  height: 230px;
+  background-color: #24282f
 
+
+}
+
+.content-hab{
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  padding-left: 100px;
+
+}
+.content-foto{
+    width: 400px;
+    padding-left: 250px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.content-datos{
+    width: 290px;
+    height: 260px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.content-datos h2 {
+
+  font-family: 'Amatic SC';
+  color: white;
   display: block;
+  font-size: 40px;
+  text-shadow: 3px 3px 5px #000;
+
+}
+
+.content-datos h3 {
+  font-family: 'Amatic SC';
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px #000;
+
+}
+
+.content-estu h4{
+  font-family: 'Josefin Slab', serif;
+  padding-left: 100px;
+
+}
+
+hr {
+
+  border: 3px
+  solid #666; 
+  border-radius: 300px/10px; 
+  height: 0px; 
   text-align: center;
 
 }
+
+.pie-pagina{
+ margin: 0 auto;
+}
+
+

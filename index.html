@@ -7,79 +7,69 @@
     <meta name="keywords" content="CV, Resumen, Curriculum Vitae">
     <meta name="description" content="Resumen curricular de Jonathan Martinez">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="#datos">Datos</a>
-          </li>
-
-         <li>
-            <a href="#estudios">Estudios</a>
-          </li>
-
-          <li>
-            <a href="#experiencia">Experiencia</a>
-          </li>
-
-          <li>
-            <a href="#referencia">Referencias</a>
-          </li>
-
-          <li>
-            <a href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-      <h1>Resumen Curricular</h1>
-    </header>
 
     <section id="datos">
-      <h2>Datos personales</h2>
       <div class="content-foto">
         <img src="img/avatar.png" alt="Imagen de Jonathan Martinez" />
       </div>
 
       <div class="content-datos">
-        <label>Nombre:</label> Jonathan   
-        <label>Apellido:</label> Martinez   
-        <label>Profesión:</label> Desarrollador      
+        <h2>Jonathan Martinez</h2>  
+        <h3>Domador de ardillas</h3>        
+        <h3>@codejamm</h3>        
       </div>
 
     </section>
+    <header>
+      <h1>Resumen Curricular</h1>
+    </header>
 
     <section id="estudios">
       <h2>Estudios realizados</h2>
+      <hr>
       <article>
-        <h3>Estudios formales</h3>
-          <div>
-            <h4>Universidad de los Andes Mérida, Venezuela</h4>
-            <h5>2015</h5>
-            <p>Ingenierio Electricista</p>
-          </div>
-            <h4>Colegio La Salle Mérida, Venezuela</h4>
-            <h5>2006</h5>
-            <p>Bachiller en ciencias</p>
-          <div>
-            
+          <div class="content-estu">
+            <h4>2015 | Universidad de los Andes Mérida, Venezuela | Ingeniero Electricista</h4>
+            <h4>2008 | Worcester Polytechnic Institute Worcester MA, USA | Dropout
+            <h4>2006 | Colegio La Salle Mérida, Venezuela | Bachiller en Ciencias</h4>
           </div>
       </article>
 
       <article>
-        <h3>Habilidades</h3>
+        <h2>Habilidades</h2>
+        <hr>
           <div class="content-hab">
-            <input type="range" value="30" min="0" disabled="" /> HTML
+            <img src="img/ruby.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> ruby
           </div>
 
           <div class="content-hab">
+            <img src="img/rails.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> rails
+          </div>
+
+           <div class="content-hab">
+            <img src="img/db.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> mysql
+          </div>
             
+          <div class="content-hab">
+            <img src="img/html.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> html
           </div>
 
           <div class="content-hab">
-            
+            <img src="img/css.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> css
+          </div>
+          <div class="content-hab">
+            <img src="img/js.png" alt="" />
+            <input type="range" value="30" min="0" disabled="" /> javascript
           </div>
       </article>
 
@@ -87,43 +77,39 @@
 
     <section id="experiencia">
       <h2>Experiencia laboral</h2>
-        <div class="content-izq">
-          <h3>Trabajo 1<span>01/01/2013 - 31/12/2014</span></h3>
-          <h4>Empresa: Mi empresa 1</h4> 
-          <h5>Jefe inmediato: Mi jefe</h5>
-          <p>
-              <strong>Desarrollador de software:</strong> Encargado del desarrollo de aplicaciones y sistemas de la empresa
-          </p>
+      <hr>
+         <div class="content-exp">
+          <h4>2015 | Magic | CEO</h4> 
         </div>
 
-        <div class="content-der">
-          <h3>Trabajo 2<span>01/01/2013 - 31/12/2014</span></h3>
-          <h4>Empresa: Mi empresa 1</h4> 
-          <h5>Jefe inmediato: Mi jefe</h5>
-          <p>
-              <strong>Desarrollador de software:</strong> Encargado del desarrollo de aplicaciones y sistemas de la empresa
-          </p>
+        <div class="content-exp">
+          <h4>2014 | Stripe | Rails developer</h4> 
+        </div>
+
+        <div class="content-exp">
+          <h4>2013 | 42Signals | Rails developer</h4> 
         </div>
     </section>
 
     <section id="referencia">
       <h2>Referencias personales </h2>
+      <hr>
       <article>
-        <h4>Personales</h4>
+        <h4 class="ref">Personales</h4>
           <ul>
             <li>Noha Gudiño | 0424-7456984 | noha@gmail.com</li>
           </ul>
       </article>
       
       <article>
-        <h4>Comerciales</h4>
+        <h4 class="ref">Comerciales</h4>
           <ul>
             <li>Angel Davila| 0424-7654984 | adavila@gmail.com</li>
           </ul>
       </article>
 
       <article>
-        <h4>Laborales</h4>
+        <h4 class="ref">Laborales</h4>
           <ul>
             <li>Romer Ramos | 0412-7345678 | rramos@gmail.com</li>
           </ul>
@@ -132,45 +118,20 @@
 
     <section id="contacto">
       <h2>Contacto</h2>
-
+      <hr>
         <article>
-          <address>
             <ul>
               <li><img src="img/location-black.png"> Av. Romulo Gallegos, Rs. Yutaje</li>
               <li><img src="img/phone-black.png"> 0412-0616215</li>
               <li><img src="img/mail-black.png"> jamm@jmartinezm.org</li>
-              <li><img src=""><a href="https://twitter.com/codejamm">@codejamm</a></li>
             </ul>
-          </address>
-        </article>
-
-        <article>
-          <form action="contacto.html" method="POST"> 
-            <div style="content-input">      
-              <input type="text" name="nombre" placeholder="Ingrese su nombre" />
-            </div>
-
-            <div style="content-input"> 
-              <input type="email" name="correo" placeholder="Ingrese su correo" />
-            </div>
-            <div style="content-input"> 
-              <input type="tel" name="telefono" placeholder="Ingrese su telefono" />
-            </div>
-            <div style="content-input"> 
-              <textarea name="mensaje"></textarea>
-            </div>
-            <div style="content-input"> 
-              <input type="submit" name="submit" value"Enviar"/>
-            </div>
-          </form>
         </article>
     </section>
 
     <footer>
       <div id="pie-pagina">
 
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
+          <p>Esta obra está bajo una Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional<p>
 
       </div>
 
@@ -178,3 +139,4 @@
   </body>
 
 </html>
+
